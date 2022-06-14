@@ -139,7 +139,8 @@ def mainWork(img):
         i += 1
 
 if __name__ == '__main__':
-    file = 'cmd.xls'
+    # file = 'cmd.xls'
+    file = 'cmd-email.xls'
     #打开文件
     wb = xlrd.open_workbook(filename=file)
     #通过索引获取表格sheet页
